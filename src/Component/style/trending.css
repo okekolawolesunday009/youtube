@@ -1,0 +1,7 @@
+.trending__app{
+    margin: auto;
+}
+.trending__app > h1{
+    color: red;
+}
+
