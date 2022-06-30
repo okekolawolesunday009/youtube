@@ -1,21 +1,24 @@
 // import logo from './logo.svg';
 import './App.css';
-// import './index.css';
+import './index.css';
+import Allside from './Component/Allside';
 import Header from './Component/Header'; 
-import SideBar from './Component/SideBar';
-import Recommendations from './Component/Recommendations';
+import  { BrowserRouter as Router,Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <div className="">
-     <Header />
-     <div className='App__page'>
-      <SideBar />
-      <Recommendations />
-     </div>
-    
+   <Router>
+      <Header />
+       
+      <Routes>
+            
+            <Route path="/" element={<Allside/>}/>
+            {/* <Route path="/" element={<A />}/> */}
 
-    </div>
+      </Routes>
+    </Router>
+      </div>
   );
 }
 
