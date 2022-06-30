@@ -3,6 +3,7 @@ import './App.css';
 import './index.css';
 import Allside from './Component/Allside';
 import Header from './Component/Header'; 
+import ResultSearch from './Component/ResultSearch'; 
 import  { BrowserRouter as Router,Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -14,7 +15,7 @@ function App() {
       <Routes>
             
             <Route path="/" element={<Allside/>}/>
-            {/* <Route path="/" element={<A />}/> */}
+            <Route path="/Search" element={<ResultSearch />}/>
 
       </Routes>
     </Router>

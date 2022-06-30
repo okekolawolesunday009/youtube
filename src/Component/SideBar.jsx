@@ -1,5 +1,5 @@
 import React from 'react'
-import './sidebar.css';
+import './style/sidebar.css';
 import SideRows from './SideRows';
 import  HomeIcon from '@material-ui/icons/Home';
 import  WhatshotIcon from '@material-ui/icons/Whatshot';

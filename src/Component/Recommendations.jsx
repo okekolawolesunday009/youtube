@@ -1,5 +1,5 @@
 import React from 'react'
-import './Recommendations.css'
+import './style/Recommendations.css'
 import VideoCard from './VideoCard'
 import renew2 from '../img/renew2.jfif'
 function Recommendations() {
