@@ -4,4 +4,10 @@
 .trending__app > h1{
     color: red;
 }
+.all__app{
+    margin: auto;
+}
+.all__app > h1{
+    color: red;
+}
 

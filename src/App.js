@@ -6,6 +6,7 @@ import Header from './Component/Header';
 import ResultSearch from './Component/ResultSearch'; 
 import  { BrowserRouter as Router,Routes, Route } from 'react-router-dom';
 import TrendingPage from './Component/TrendingPage';
+import SubscriptionPage from './Component/SubscriptionPage';
 
 function App() {
   return (
@@ -18,6 +19,8 @@ function App() {
             <Route path="/" element={<Allside/>}/>
             <Route path="/Search" element={<ResultSearch />}/>
             <Route path="/Trending" element={<TrendingPage/>}/>
+            <Route path="/Subscription" element={<SubscriptionPage/>}/>
+
 
       </Routes>
     </Router>
