@@ -7,17 +7,19 @@ import ResultSearch from './Component/ResultSearch';
 import  { BrowserRouter as Router,Routes, Route } from 'react-router-dom';
 import TrendingPage from './Component/TrendingPage';
 import SubscriptionPage from './Component/SubscriptionPage';
+// import SideBar from './Component/SideBar';
+// import Recommendations from './Component/Recommendations';
 
 function App() {
   return (
     <div className="">
    <Router>
       <Header />
-       
-      <Routes>
+     
+          <Routes>
             
             <Route path="/" element={<Allside/>}/>
-            <Route path="/Search" element={<ResultSearch />}/>
+            <Route path="/ResultSearch/:searchTerm" element={<ResultSearch />}/>
             <Route path="/Trending" element={<TrendingPage/>}/>
             <Route path="/Subscription" element={<SubscriptionPage/>}/>
 

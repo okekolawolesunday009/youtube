@@ -4,7 +4,7 @@ import './style/videocard.css'
 
 function VideoCard({image, title, channel, views, timestamp, channelImage}) {
   return (
-    <div className="videocard__container">
+    <div className="videocard__container hover">
         <img className='imgclass' src={image} alt=""/>
 
         <div className="video__info">
@@ -16,7 +16,7 @@ function VideoCard({image, title, channel, views, timestamp, channelImage}) {
 
      
 
-            <div className="video__title">
+            <div className="video__title ">
                 <h4>{title}</h4>
                 <p>{channel}</p>
                 <p>

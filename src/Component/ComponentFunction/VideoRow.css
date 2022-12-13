@@ -1,0 +1,31 @@
+.VideoRow{
+    display:flex;
+    margin-bottom: 38px;
+    max-width:766px;
+
+}
+.VideoRow > img{
+    object-fit: contain;
+    width:246px;
+    height:138px;
+
+}
+.videoRow__text{
+    margin-left:14px;
+}
+.videoRow__caption, .videoRow__heading{
+ color: #606060;
+}
+.videoRow__heading{
+    font-size :12px;
+}
+.videoRow__caption{
+    margin-top:20px;
+    font-size: 12px;
+  
+}
+.sideNumber{
+    color:rgb(84, 157,211);
+    font-weight: bolder;
+
+}

@@ -11,6 +11,7 @@ function ResultSearch() {
   return (
     <div>
         <div className='App__page'>
+     
         <SideBar />
         <Search/>
     </div>

@@ -10,7 +10,7 @@ function Recommendations() {
        <div className="recommended__vids">
 
 
-       <VideoCard 
+       <VideoCard className="hover"
        title="Become a devops in one day"
       views= "2.3M views"
       timestamp="3 days ago"

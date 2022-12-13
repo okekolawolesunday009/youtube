@@ -40,3 +40,8 @@
     /* padding-bottom: -12px;    */
     color: gray;
 }
+.hover:hover{
+    background-color:red;
+    color: white !important;
+    cursor: pointer;
+}

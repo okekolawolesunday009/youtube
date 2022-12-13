@@ -1,3 +1,21 @@
 .search__app{
-    margin: auto;
+    /* margin: a
+    flexuto; */
+    flex: 0.8;
+}
+.search__filter{
+    display: flex;
+    align-items: center;
+    color:#606060;
+    font-size:xx-small!important;
+}
+.search__filter > h2{
+    margin-left: 10px;
+}
+.search__filter > hr{
+    height: 1px;
+    border: 0;
+    background-color: lightgray;
+     margin-top: 10px;
+    margin-bottom: 10px;
 }

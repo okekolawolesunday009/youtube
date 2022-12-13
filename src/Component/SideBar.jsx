@@ -18,13 +18,13 @@ import {Link} from 'react-router-dom'
 function SideBar() {
   return (
     <div className="sidebar">
-        <Link to ={`/`} >
+        <Link to ={`/`} style={{textDecoration:"none", color: "black"}} >
         <SideRows selected Icon ={HomeIcon} title="Home" />
         </Link>
-        <Link to ={`/Trending`} >
+        <Link  to ={`/Trending`} style={{textDecoration:"none", color: "black"}}>
              <SideRows  Icon ={WhatshotIcon} title="Trending" />
         </Link>
-        <Link to ={`/Subscription`}>
+        <Link to ={`/Subscription`} style={{textDecoration:"none", color: "black"}}>
         <SideRows  Icon ={SubscriptionsIcon} title="Subscriptions" />
         </Link>
 

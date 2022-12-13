@@ -7,7 +7,7 @@ import  AppsIcon from '@material-ui/icons/Apps';
 import  NotificationsIcon from '@material-ui/icons/Notifications';
 import  Avatar from '@material-ui/core/Avatar';
 import  VideoCallIcon from '@material-ui/icons/VideoCall';
-import  prime from '../img/prime.jpg'
+import  youtube from '../img/youtube.png'
 import {Link} from 'react-router-dom'
 
 
@@ -23,7 +23,7 @@ function Header() {
         <MenuIcon  className="menuicon"/>
           
        <Link to ={`/`} >
-        <img className="header__logo" src={prime} alt="" />
+        <img className="header__logo" src={youtube} alt="" />
        </Link>
        </div>
 
@@ -32,7 +32,7 @@ function Header() {
         value={inputSearch} 
         placeholder='Search' type="text"/>
        
-       <Link to ={`/Search/${inputSearch}`} >
+       <Link to ={`/ResultSearch/${inputSearch}`} >
       
         <SearchIcon className="header__searchicon" />
       </Link>
